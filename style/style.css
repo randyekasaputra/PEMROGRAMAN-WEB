@@ -155,14 +155,14 @@ section {
     z-index: 0;
 }
 
-/* Portfolio Section */
-.portfolio-section .card .card-img-top {
+/* Paket*/
+.langganan-section .card .card-img-top {
     height: 200px;
     width: 100%;
     object-fit: cover;
 }
 @media screen and (max-width: 768px) {
-    .portfolio-section .card .card-img-top {
+    .langganan-section .card .card-img-top {
         height: 100px;
     }
 }
@@ -178,3 +178,39 @@ footer p {
     color: var(--gray-color);
     font-size: var(--small-font-size);
 }
+
+/* Media Demo Aplikasi */
+.media h2 {
+    margin-top: 40px;
+    font-weight: bold;
+  }
+  
+  .media img {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .media video {
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .h2{
+    color: #f86a27;
+  }
+/* Fitur*/
+.list h2 {
+    margin-top: 40px;
+    font-weight: bold;
+  }
+  
+  .list ul {
+    list-style-type: square;
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .list ul li {
+    font-size: 1.1em;
+    margin-bottom: 8px;
+  }
